@@ -12,3 +12,9 @@ window.onscroll = function () {
       document.getElementById("header").style.boxShadow = "none";
     }
 }
+
+ //Copyright Date
+ function newDate() {
+  return new Date().getFullYear();
+}
+document.onload = document.getElementById("autodate").innerHTML = newDate();

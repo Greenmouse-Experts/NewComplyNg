@@ -1,43 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
-html, body{
+
+html,
+body {
     font-family: 'DM Sans', sans-serif !important;
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scrollbar-width: auto;
 }
-body{
+
+body {
     background-color: #F8F8FF !important;
 }
+
 /* ===== Scrollbar CSS ===== */
 /* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
     width: 10px;
 }
+
 *::-webkit-scrollbar-thumb {
     background-color: #000000;
     border-radius: 0px;
 }
+
 *::-moz-scrollbar-thumb {
     background-color: #000000;
     border-radius: 0px;
 }
+
 /* Highlight Text */
-::-moz-selection { /* Code for Firefox */
+::-moz-selection {
+    /* Code for Firefox */
     color: #fff;
     background: #8CB523;
 }
+
 ::selection {
     color: #fff;
     background: #8CB523;
 }
 
 /*********Header Nav*********/
-nav{
+nav {
     padding: 10px 10px !important;
     width: 100%;
     z-index: 99 !important;
@@ -45,29 +55,36 @@ nav{
     transition: all 0.3s ease-out 0s;
     position: fixed !important;
 }
-nav .navbar-brand img{
+
+nav .navbar-brand img {
     width: 200px;
 }
-nav .navbar-nav{
+
+nav .navbar-nav {
     margin-left: -50px;
 }
-nav .navbar-nav .nav-item{
+
+nav .navbar-nav .nav-item {
     padding-right: 15px;
     font-size: 16px;
 }
-nav .navbar-nav .nav-item .nav-link{
+
+nav .navbar-nav .nav-item .nav-link {
     color: #000000;
     font-weight: 500;
 }
-nav .navbar-nav .nav-item .nav-link:hover{
+
+nav .navbar-nav .nav-item .nav-link:hover {
     color: #8CB523;
     padding-bottom: 2px;
     border-bottom: 2px solid #8CB523;
 }
-nav .login-div{
+
+nav .login-div {
     margin-top: 7px;
 }
-nav .login-div .btn-login{
+
+nav .login-div .btn-login {
     padding: 10px 20px;
     border: 1px solid #000;
     border-radius: 5px;
@@ -76,15 +93,17 @@ nav .login-div .btn-login{
     text-decoration: none;
     color: #000;
 }
+
 /* nav .login-div .btn-login i{
     padding-right: 5px;
 }  */
-nav .login-div .btn-login:hover{
+nav .login-div .btn-login:hover {
     background-color: #8CB523;
     border: none;
     color: #ffffff;
 }
-nav .login-div .btn-signup{
+
+nav .login-div .btn-signup {
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 16px;
@@ -93,112 +112,141 @@ nav .login-div .btn-signup{
     color: #fff;
     background-color: #8CB523;
 }
-nav .login-div .btn-signup:hover{
-   color: #000;
-}
-nav .login-div .btn-signup i{
-    padding-left: 5px;
-} 
-nav .navbar-toggler{
-    border: 1px solid #000!important; 
-}
-nav .navbar-toggler i{
+
+nav .login-div .btn-signup:hover {
     color: #000;
 }
-nav .navbar-toggler:focus, nav .navbar-toggler:active{
+
+nav .login-div .btn-signup i {
+    padding-left: 5px;
+}
+
+nav .navbar-toggler {
+    border: 1px solid #000 !important;
+}
+
+nav .navbar-toggler i {
+    color: #000;
+}
+
+nav .navbar-toggler:focus,
+nav .navbar-toggler:active {
     outline: none !important;
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
 }
-nav .offcanvas{
+
+nav .offcanvas {
     width: 280px;
 }
-nav .offcanvas-header{
+
+nav .offcanvas-header {
     text-align: right;
     padding: 10px 1px 1px 1px !important;
     margin-bottom: -20px;
 }
-nav .offcanvas-header button{
+
+nav .offcanvas-header button {
     cursor: pointer;
     border: none;
     background-color: transparent;
     position: relative;
     right: -230px;
 }
-nav .offcanvas-header button i{
+
+nav .offcanvas-header button i {
     font-size: 25px;
     color: #000
 }
-nav .mobile-login{
+
+nav .mobile-login {
     display: none;
 }
-nav .desktop-signup{
+
+nav .desktop-signup {
     display: none;
 }
-@media(max-width: 1199px){
-    nav .navbar-nav{
+
+@media(max-width: 1199px) {
+    nav .navbar-nav {
         margin-left: -10px;
     }
-    nav .login-div .btn-login{
+
+    nav .login-div .btn-login {
         padding: 10px 15px;
     }
-    nav .login-div .btn-signup{
+
+    nav .login-div .btn-signup {
         padding: 10px 15px;
     }
-    nav .navbar-nav .nav-item{
+
+    nav .navbar-nav .nav-item {
         padding-right: 5px;
         font-size: 15px;
     }
-    nav .login-div{
+
+    nav .login-div {
         margin-right: -20px;
     }
-    nav .login-div .btn-signup i{
+
+    nav .login-div .btn-signup i {
         padding-left: 1px;
-    } 
-    nav .login-div .btn-login i{
+    }
+
+    nav .login-div .btn-login i {
         padding-right: 1px;
-    } 
+    }
 }
-@media(max-width: 991px){
-    nav{
+
+@media(max-width: 991px) {
+    nav {
         padding: 10px 10px !important;
     }
-    nav .navbar-nav{
+
+    nav .navbar-nav {
         margin-left: 0px;
     }
-    nav .login-div{
+
+    nav .login-div {
         margin-top: 20px;
         margin-left: 10px;
         margin-right: 0px;
     }
-    nav .navbar-nav .nav-item{
+
+    nav .navbar-nav .nav-item {
         padding-left: 10px;
         padding-right: 10px;
         padding-bottom: 10px;
         text-align: center;
         margin-bottom: 5px;
     }
-    nav .navbar-nav .nav-item .nav-link{
+
+    nav .navbar-nav .nav-item .nav-link {
         font-weight: 600;
         font-size: 17px;
     }
-    nav .mobile-login{
+
+    nav .mobile-login {
         display: block;
         margin-top: -2px;
     }
-    nav .desktop-login{
+
+    nav .desktop-login {
         display: none;
     }
-    nav .desktop-signup{
+
+    nav .desktop-signup {
         display: block;
     }
+
     /* nav .navbar-nav .nav-item .nav-link{
         border-bottom: 1px solid #8CB523;
     } */
-    nav .navbar-nav .nav-item .nav-link:hover{
+    nav .navbar-nav .nav-item .nav-link:hover {
         color: #8CB523;
     }
-    nav .login-div .btn-signup{
+
+    nav .login-div .btn-signup {
         background-color: #8CB523;
         padding: 10px 10px;
         text-align: center;
@@ -209,47 +257,56 @@ nav .desktop-signup{
         color: #ffffff;
     }
 }
-@media(max-width: 442px){
-    nav .navbar-brand img{
+
+@media(max-width: 442px) {
+    nav .navbar-brand img {
         width: 150px;
     }
-    nav .mobile-login .btn-login{
+
+    nav .mobile-login .btn-login {
         padding: 7px 10px;
         font-size: 15px;
     }
+
     nav .navbar-toggler {
         padding: 3px 10px !important;
     }
-    nav .navbar-toggler i{
+
+    nav .navbar-toggler i {
         color: #000;
         font-size: 16px;
     }
 }
-@media(max-width: 370px){
-    nav .navbar-brand img{
+
+@media(max-width: 370px) {
+    nav .navbar-brand img {
         margin-left: 5px;
     }
 }
+
 /*********Header Nav Ends*********/
 
 /*********welcome  *********/
-.welcome{
+.welcome {
     background-image: url(https://res.cloudinary.com/greenmouse-tech/image/upload/v1668431293/ComplyNG%20Images/tihjy_jnvfoe.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 200px 0 10px 0px;
 }
-.welcome .compile h1{
+
+.welcome .compile h1 {
     padding: 100px 0 0 0;
     font-size: 54px;
     color: #000;
     font-weight: 900;
 }
-.welcome .compile p{
+
+.welcome .compile p {
     font-weight: 500;
     line-height: 1.6;
 }
-.welcome .compile button{
+
+.welcome .compile button {
     margin-top: 40px;
     border: none;
     background-color: #8CB523;
@@ -257,292 +314,575 @@ nav .desktop-signup{
     padding: 10px 30px;
     border-radius: 5px;
 }
-.welcome .images img{
+
+.welcome .images img {
     display: block;
     margin: auto;
     width: 80%;
 }
+
 .pulse {
     animation: pulse 3s infinite ease-in-out alternate;
 }
+
 @keyframes pulse {
-    from { transform: scale(1.1); }
-    to { transform: scale(1.2); }
+    from {
+        transform: scale(1.1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
 }
-.welcome .push{
+
+.welcome .push {
     padding: 80px 0px 0px 0px;
 }
-.welcome .line{
+
+.welcome .line {
     background-color: #949494;
     height: 1px;
     width: 100%;
 }
+
 @media (max-width:1300px) {
-    .welcome .compile h1{
+    .welcome .compile h1 {
         padding: 50px 0 0 0;
         font-size: 54px;
         color: #000;
         font-weight: 900;
     }
 }
+
 @media (max-width:1199px) {
-    .welcome .compile h1{
+    .welcome .compile h1 {
         padding: 40px 0 0 0;
         font-size: 40px;
         color: #000;
         font-weight: 900;
     }
-    .welcome{
-        padding:150px 10px 10px 10px;
+
+    .welcome {
+        padding: 150px 10px 10px 10px;
     }
-    .welcome .images img{
+
+    .welcome .images img {
         display: block;
         margin: auto;
         width: 90%;
     }
 }
+
 @media (max-width:992px) {
-    .welcome .images img{
+    .welcome .images img {
         margin-top: 50px !important;
         display: block;
         margin: auto;
         width: 80%;
     }
 }
+
 @media (max-width:767px) {
-    .welcome .compile h1{
+    .welcome .compile h1 {
         padding: 10px 0 0 0;
         font-size: 35px;
         color: #000;
         font-weight: 900;
     }
-    .welcome .images img{
+
+    .welcome .images img {
         margin-top: 80px !important;
         display: block;
         margin: auto;
         width: 80%;
     }
-    .welcome{
-        padding:150px 0px 10px 0px;
+
+    .welcome {
+        padding: 150px 0px 10px 0px;
     }
 }
+
 @media (max-width:583px) {
-    .welcome{
-        padding:150px 10px 10px 10px;
+    .welcome {
+        padding: 150px 10px 10px 10px;
     }
 }
+
 @media (max-width:525px) {
-    .welcome .compile h1{
+    .welcome .compile h1 {
         padding: 10px 0 0 0;
         font-size: 30px;
         color: #000;
         font-weight: 900;
     }
 }
+
 @media (max-width:460px) {
-    .welcome .compile h1{
+    .welcome .compile h1 {
         padding: 10px 0 0 0;
         font-size: 25px;
         color: #000;
         font-weight: 900;
     }
-    .welcome .compile p{
+
+    .welcome .compile p {
         font-weight: 500;
         line-height: 1.6;
     }
-    .welcome .compile button{
+
+    .welcome .compile button {
         margin-top: 25px;
     }
 }
+
 /*********welcome  Ends*********/
 
 /*********Offer*********/
-.offer{
+.offer {
     background-image: url(https://res.cloudinary.com/greenmouse-tech/image/upload/v1668436203/ComplyNG%20Images/Group_1000001728_sax3z4.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 100px 0px 10px 0;
 }
-.offer .what{
+
+.offer .what {
     text-align: center;
 }
-.offer .what h1{
+
+.offer .what h1 {
     font-size: 45px;
     color: #000;
     font-weight: 900;
 }
-.offer .what p{
+
+.offer .what p {
     font-weight: 500;
 }
-.offer .card{
+
+.offer .card {
     margin-top: 30px;
-    padding:30px 20px;
+    padding: 30px 20px;
     border-radius: 5px;
     border: none;
     height: 220px;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
 }
-.offer .card img{
+
+.offer .card img {
     width: 50px;
 }
-.offer .card h1{
+
+.offer .card h1 {
     color: #000;
     padding: 15px 0px 0px 0;
     font-size: 17px;
     font-weight: 900;
 }
-.offer .card p{
+
+.offer .card p {
     font-size: 14px;
 }
-.offer .push{
+
+.offer .push {
     padding: 100px 0px 0px 0px;
 }
-.offer .line{
+
+.offer .line {
     background-color: #949494;
     height: 0.5px;
     width: 100%;
 }
+
 @media (max-width:1300px) {
-    .offer .card{
+    .offer .card {
         height: 240px;
         box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
     }
 }
+
 @media (max-width:1200px) {
-    .offer .card{
+    .offer .card {
         height: 280px;
         box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
     }
 }
+
 @media (max-width:992px) {
-    .offer .card{
+    .offer .card {
         height: 220px;
         box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
     }
 }
+
 @media (max-width:584px) {
-    .offer{
+    .offer {
         padding: 50px 10px 10px 10px;
     }
-    .offer .what h1{
+
+    .offer .what h1 {
         font-size: 30px;
         color: #000;
         font-weight: 900;
     }
 }
+
 /*********Offer  Ends*********/
 
 /*********Publish *********/
-.publish{
+.publish {
     background-image: url(https://res.cloudinary.com/greenmouse-tech/image/upload/v1668439253/ComplyNG%20Images/Group_1000001729_q2skob.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 100px 0px 100px 0px;
 }
-.publish .what{
+
+.publish .what {
     text-align: center;
 }
-.publish .what h1{
+
+.publish .what h1 {
     font-size: 45px;
     color: #000;
     font-weight: 900;
 }
-.publish .what p{
+
+.publish .what p {
     font-weight: 500;
 }
-.publish .video-div{
+
+.publish .video-div {
     padding: 40px 0 0 0;
 }
-.publish .video-div iframe{
+
+.publish .video-div iframe {
     width: 100%;
     display: block;
     margin: auto;
     border-radius: 10px;
 }
+
 @media (max-width:584px) {
-    .publish{
+    .publish {
         padding: 50px 10px 50px 10px;
     }
-    .publish .what h1{
+
+    .publish .what h1 {
         font-size: 30px;
         color: #000;
         font-weight: 900;
     }
 }
+
 /*********Publish  Ends*********/
 
 /*********work *********/
-.work{
-    padding: 100px 0px 50px 0px;
+.work {
+    padding: 100px 0px 0px 0px;
     background-color: #E5E5FB;
+    margin-bottom: -230px;
 }
-.work .coming{
+
+.work .coming {
     margin-top: 20px;
     background-color: #1C1E32;
     padding: 10px;
     border-radius: 10px;
 }
-.work .what{
+
+.work .what {
     text-align: center;
 }
-.work .what h1{
+
+.work .what h1 {
     font-size: 45px;
     color: #000;
     font-weight: 900;
 }
-.work .what h2{
+
+.work .what h2 {
     font-size: 25px;
     color: #000;
     font-weight: 600;
 }
-.work .what p{
+
+.work .what p {
     font-weight: 500;
 }
-.work .hey{
+
+.work .hey {
     padding: 20px;
     color: #fff;
     text-align: center;
 }
-.work .hey img{
+
+.work .hey img {
     display: block;
     margin: auto;
     width: 80px;
     margin-bottom: 20px !important;
 }
+
+.work a {
+    text-decoration: none;
+}
+
+.work button {
+    padding: 10px 30px;
+    border: none;
+    background-color: #8CB523;
+    color: #fff;
+    font-size: 13px;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 50px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.work .push {
+    padding: 80px 0px 0px 0px;
+}
+
+.work .line {
+    background-color: #949494;
+    height: 0.5px;
+    width: 100%;
+}
+
 @media (max-width:991px) {
-    .work .coming{
+    .work .coming {
         padding: 0px;
     }
-    .work .hey img{
+
+    .work .hey img {
         display: block;
         margin: auto;
         width: 50px;
         margin-bottom: 20px !important;
     }
-    .work .what h1{
+
+    .work .what h1 {
         font-size: 30px;
         color: #000;
         font-weight: 900;
     }
-    .work .what h2{
+
+    .work .what h2 {
         font-size: 20px;
         color: #000;
         font-weight: 600;
     }
 }
+
 @media (max-width:584px) {
-    .work{
+    .work {
         padding: 50px 10px 50px 10px;
         background-color: #E5E5FB;
     }
-    .work .coming{
+
+    .work .coming {
         padding: 10px;
     }
-    .work .hey img{
+
+    .work .hey img {
         display: block;
         margin: auto;
         width: 50px;
         margin-bottom: 20px !important;
     }
 }
+
 /*********work  Ends*********/
+
+/*********Client *********/
+.client {
+   background-image: url(https://res.cloudinary.com/greenmouse-tech/image/upload/v1668504977/ComplyNG%20Images/Group_1000001728_lvwmhr.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+    padding: 390px 0px 100px 0px;
+}
+
+.client .what {
+    text-align: center;
+}
+
+.client .what h1 {
+    font-size: 40px;
+    color: #000;
+    font-weight: 900;
+}
+
+.client .what p {
+    font-weight: 500;
+}
+.inner{
+    margin-top: 50px;
+    padding: 70px 30px 50px 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+.inner:hover{
+    margin-top: 50px;
+    padding: 70px 30px 50px 30px;
+    background-color: #fff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    Offset: 0px, 41.04px
+rgba(0, 0, 0, 0.053);
+    border-radius: 5px;
+    text-align: center;
+}
+.inner img{
+    display: block;
+    margin: auto;
+    width: 100px;
+    margin-bottom: 20px !important;
+}
+.inner h1{
+    padding: 30px 0 0 0;
+    font-size: 12px;
+    font-weight: 500;
+}
+.inner a{
+    text-decoration: underline;
+    font-size: 13px;
+    color: #8CB523;
+}
+@media (max-width:584px) {
+    .client {
+        padding: 250px 10px 100px 10px !important;
+    }
+
+    .client .what h1 {
+        font-size: 30px;
+        color: #000;
+        font-weight: 900;
+    }
+    .inner{
+        margin-top: 20px;
+        padding: 70px 30px 50px 30px;
+        background-color: #fff;
+        border-radius: 5px;
+        text-align: center;
+    }
+}
+@media (max-width:991px) {
+    .client {
+        background-image: url(https://res.cloudinary.com/greenmouse-tech/image/upload/v1668504977/ComplyNG%20Images/Group_1000001728_lvwmhr.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+         padding: 330px 0px 100px 0px;
+     }
+     .inner:hover{
+        margin-top: 50px;
+        padding: 70px 30px 50px 30px;
+        background-color: #fff;
+        box-shadow: none !important;
+        border-radius: 5px;
+        text-align: center;
+    }
+}
+/*********Client  Ends*********/
+
+/*********Footer*********/
+footer {
+    background-color: #F9F9F9;
+    padding: 90px 10px 30px 10px !important;
+    color: #000;
+  }
+  footer .main-ft {
+    margin-top: -20px;
+    color: #000;
+  }
+  footer .main-ft img {
+    width: 150px;
+    padding-bottom: 15px;
+  }
+  footer .main-ft h5 {
+    font-size: 17px;
+    font-weight: 300;
+    padding-bottom: 20px;
+    letter-spacing: 0.3px;
+    line-height: 24px;
+  }
+  footer .main-ft p {
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  footer .main-ft p span {
+    color: #4c8f35 !important;
+    font-size: 20px;
+  }
+  footer .main-ft p a {
+    padding-left: 10px;
+    text-decoration: none;
+    color: #cecece;
+  }
+  footer .main-ft p a:hover {
+    text-decoration: underline;
+  }
+  footer .link-ft .social {
+    margin-top: 30px;
+  }
+  footer .link-ft .social h5 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: -10px;
+  }
+  footer .link-ft .social a {
+    padding-right: 20px;
+    font-size: 22px;
+    color: #000;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  footer .link-ft .social a:hover {
+    color: #8CB523;
+  }
+  footer .link-ft {
+    margin-top: 30px;
+  }
+  footer .link-ft h4 {
+    color: #000;
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 0.4px;
+  }
+  footer .link-ft .line-rule {
+    width: 30px;
+    height: 2px;
+    margin-bottom: 10px;
+  }
+  footer .link-ft p {
+    line-height: 20px;
+  }
+  footer .link-ft p a {
+    color: #000;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  footer .link-ft p a:hover {
+    color: #8CB523;
+  }
+  footer .copyright {
+    border-top: 1px solid #949494;
+    padding-top: 20px;
+    margin-top: 70px;
+  }
+  footer .copyright p {
+    font-size: 15px;
+    color: #000;
+  }
+  @media (max-width: 991px) {
+    footer {
+      padding: 80px 20px 30px 20px;
+    }
+    footer .main-ft .social {
+      margin-bottom: 10px;
+    }
+    footer .link-ft {
+      margin-top: 20px;
+    }
+  }
