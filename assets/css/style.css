@@ -312,6 +312,7 @@ nav .desktop-signup {
     background-color: #8CB523;
     color: #fff;
     padding: 10px 30px;
+    box-shadow: 0px 4px 20px #8CB523;
     border-radius: 5px;
 }
 
@@ -633,10 +634,10 @@ nav .desktop-signup {
     color: #fff;
     font-size: 13px;
     display: block;
+    box-shadow: 0px 4px 20px #8CB523;
     margin: auto;
     border-radius: 5px;
     margin-top: 50px;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
 }
 
 .work .push {
@@ -902,6 +903,20 @@ footer {
     font-weight: 700;
     font-size: 45px;
 }
+.Breadcrumb-ser{
+    background-image: linear-gradient(90deg, #1d1d1d6f, #1a223b6f), url('https://res.cloudinary.com/greenmouse-tech/image/upload/v1668613967/ComplyNG%20Images/Mask_group_rukbwb.png');
+    background-size: cover;
+    border-radius: 10px 0px 0px 10px;
+    background-position: center right;
+    background-repeat: no-repeat;
+    padding: 150px 10px 50px 40px;
+    margin-top: 80px;
+    color: #fff;
+}
+.Breadcrumb-ser h1{
+    font-weight: 700;
+    font-size: 45px;
+}
 /********Universal Breadcrumb Ends********/
 
 /********Detailas Ends********/
@@ -915,7 +930,7 @@ footer {
 
 /********Addition********/
 .Addition{
-    padding: 50px 0px;
+    padding: 50px 0px 80px 0px;
     background-color: #E5E5FB;
 }
 .Addition .addict h1{
@@ -958,6 +973,30 @@ footer {
 .Addition .what p{
     font-weight: 500;
 }
+.Addition .calling .only{
+    position: relative;
+    left: 30px;
+    top: -22px;
+}
+.Addition .calling .only h1{
+    font-size: 20px;
+    font-weight: 700;
+}
+.Addition .calling .only p{
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.Addition .calling button{
+    color: #fff;
+    border: none;
+    background-color: #8CB523;
+    padding: 10px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 20px #8CB523;
+}
+.Addition .calling a{
+    text-decoration: none;
+}
 @media (max-width:1200px) {
     .Addition .addict h1{
         font-size: 25px;
@@ -984,6 +1023,11 @@ footer {
     .Details{
         padding: 100px 10px 20px 10px;
     }
+    .Addition .addict h1{
+        font-size: 20px;
+        font-weight: 900;
+        padding: 0px 0px 20px 0;
+    }
     .Addition{
         padding: 50px 20px;
         background-color: #E5E5FB;
@@ -1000,5 +1044,280 @@ footer {
         margin-top: 80px;
         color: #fff;
     }
+    .Breadcrumb-ser{
+        padding: 150px 10px 50px 20px;
+        margin-top: 80px;
+        color: #fff;
+    }
+    .Addition .calling .only h1{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .Addition .calling button{
+        color: #fff;
+        border: none;
+        background-color: #8CB523;
+        padding: 10px 30px;
+        border-radius: 5px;
+        display: block;
+        box-shadow: 0px 4px 20px #8CB523;
+        margin: auto;
+    }
+    .Addition .calling a{
+        text-decoration: none;
+    }
 }
 /********Addition Ends********/
+
+/********Stand********/
+.stand{
+    padding: 100px 0px 50px;
+    background-color: #FFFFFF;
+}
+.stand .what {
+    text-align: center;
+}
+
+.stand .what h1 {
+    font-size: 45px;
+    color: #000;
+    font-weight: 900;
+}
+
+.stand .what p {
+    font-weight: 500;
+}
+
+.stand .card {
+    margin-top: 30px;
+    padding: 30px 20px;
+    border-radius: 5px;
+    border: none;
+    height: 220px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.stand .card img {
+    width: 50px;
+}
+
+.stand .card h1 {
+    color: #000;
+    padding: 15px 0px 0px 0;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.stand .card p {
+    font-size: 14px;
+}
+
+.stand .push {
+    padding: 80px 0px 0px 0px;
+}
+
+.stand .line {
+    background-color: #949494;
+    height: 0.5px;
+    width: 100%;
+}
+
+@media (max-width:1300px) {
+    .stand .card {
+        height: 240px;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    }
+}
+
+@media (max-width:1200px) {
+    .stand .card {
+        height: 280px;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    }
+}
+
+@media (max-width:992px) {
+    .stand .card {
+        height: 220px;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    }
+}
+
+@media (max-width:584px) {
+    .stand {
+        padding: 50px 10px 10px 10px;
+    }
+
+    .stand .what h1 {
+        font-size: 30px;
+        color: #000;
+        font-weight: 900;
+    }
+}
+
+/********Stand Ends********/
+
+/********Document********/
+.document{
+    padding: 20px 0px 100px 0px;
+    background-color: #fff;
+}
+.document .images img{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.document .differ{
+    padding: 40px 0 0 0;
+}
+.document .differ h1{
+    font-size: 35px;
+    font-weight: 900;
+}
+.document .seperate{
+    padding: 30px 0;
+}
+.document .differ p{
+    font-weight: 500;
+}
+.document .differ button{
+    color: #fff;
+    border: none;
+    background-color: #8CB523;
+    padding: 10px 30px;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 20px #8CB523;
+}
+.document .push {
+    padding: 80px 0px 0px 0px;
+}
+
+.document .line {
+    background-color: #949494;
+    height: 0.5px;
+    width: 100%;
+}
+@media (max-width:1200px) {
+    .document .differ{
+        padding: 10px 0 0 0;
+    }
+}
+@media (max-width:992px) {
+    .document .differ{
+        padding: 30px 0 0 0;
+    }
+    .document .seperate{
+        padding: 15px 0;
+    }
+    .document .images img{
+        margin-top: 50px !important;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .document{
+        padding: 0px 0px 100px 0px;
+        background-color: #fff;
+    }
+}
+@media (max-width:584px) {
+    .document{
+        padding: 0px 10px 50px 10px;
+        background-color: #fff;
+    }
+}
+@media (max-width:487px) {
+    .document .differ h1{
+        font-size: 25px;
+        font-weight: 900;
+    }
+}
+
+/********Document Ends********/
+
+
+/********Client********/
+.Client{
+    padding: 0px 0px 50px;
+    background-color: #fff;
+}
+.Client .what {
+    text-align: center;
+}
+
+.Client .what h1 {
+    font-size: 45px;
+    color: #000;
+    font-weight: 900;
+}
+.Client .iamges{
+    padding: 30px 0px;
+}
+.Client .iamges img{
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+@media (max-width:584px) {
+    .Client{
+        padding: 0px 0px 50px;
+        background-color: #fff;
+    }
+    .Client .what h1 {
+        font-size: 35px;
+        color: #000;
+        font-weight: 900;
+    }
+    .Client .iamges{
+        padding: 10px 0px;
+    }
+}
+/********Client Ends********/
+
+/********meet********/
+.meet{
+    padding: 50px 0px;
+    background-color: #000;
+}
+.meet h1{
+    font-size: 40px;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+}
+.meet a{
+    text-decoration: none;
+}
+.meet button{
+    margin-top: 50px !important;
+    color: #fff;
+    display: block;
+    margin: auto;
+    border: none;
+    background-color: #8CB523;
+    padding: 10px 50px;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 20px #8CB523;
+}
+@media (max-width:1200px) {
+    .meet h1{
+        font-size: 30px;
+        font-weight: 900;
+        color: #fff;
+        text-align: center;
+    }
+}
+@media (max-width:584px) {
+    .meet{
+        padding: 50px 20px;
+    }
+    .meet h1{
+        font-size: 20px;
+        font-weight: 900;
+        color: #fff;
+        text-align: center;
+    }
+}
+/********meet Ends********/
