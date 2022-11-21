@@ -1872,7 +1872,7 @@ footer {
         font-size: 20px;
         color: #000;
         position: relative;
-        left: 80px;
+        left: 80px !important;
         top: -40px;
     }
 }
