@@ -1866,6 +1866,16 @@ footer {
         width: 50px !important;
     }
 }
+@media (max-width:1300px) {
+    .register .box h4{
+        font-weight: 600;
+        font-size: 20px;
+        color: #000;
+        position: relative;
+        left: 80px;
+        top: -40px;
+    }
+}
 .register p{
     font-size: 20px;
     color: #000;
