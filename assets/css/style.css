@@ -1321,3 +1321,784 @@ footer {
     }
 }
 /********meet Ends********/
+
+/********Cheapest********/
+.Cheapest{
+    padding: 100px 0px 0px 0px;
+    background-color: #FFFFFF;
+}
+.Cheapest .images img{
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+.Cheapest .proof{
+    padding: 30px 0 0 0;
+}
+.Cheapest .proof h1{
+    font-size: 35px;
+    font-weight: 900;
+}
+.Cheapest .proof p{
+    font-weight: 500;
+}
+.Cheapest .proof  .http{
+    padding: 10px 0 0 ;
+}
+.Cheapest .proof .http img{
+    display:inline-block;
+    margin: auto;
+}
+.Cheapest .proof .http p{
+    position: relative;
+    top: -105px;
+    left: 35px;
+    font-weight: 500;
+}
+.Cheapest .proof .once{
+    position: relative;
+    top: -100px;
+}
+.Cheapest .click{
+    margin-top: -20px !important;
+    color: #fff;
+    display: inline-block;
+    margin: auto;
+    position: relative;
+    left: 300px;
+    border: none;
+    background-color: #8CB523;
+    padding: 10px 50px;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 20px #8CB523;
+}
+.Cheapest .here{
+    margin-top: -20px !important;
+    color: #000;
+    display: inline-block;
+    margin: auto;
+    border: 1px solid #000;
+    position: relative;
+    left: 350px;
+    background-color: #fff;
+    padding: 10px 50px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.Cheapest .push {
+    padding: 70px 0px 0px 0px;
+}
+
+.Cheapest .line {
+    background-color: #949494;
+    height: 1px;
+    width: 100%;
+}
+@media (max-width:1200px) {
+    .Cheapest .proof{
+        padding: 0px 0 0 0;
+    }
+    .Cheapest .proof h1{
+        font-size: 30px;
+        font-weight: 900;
+    }
+}
+@media (max-width:991px) {
+    .Cheapest .images img{
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+    .Cheapest .images{
+        margin-top: -30px;
+    }
+    .Cheapest .proof .once{
+        position: relative;
+        top: -100px;
+    }
+    .Cheapest .click{
+        margin-top: 40px !important;
+        color: #fff;
+        display: block;
+        margin: auto;
+        position: relative;
+        left: 0px;
+    }
+    .Cheapest .here{
+        margin-top: 20px !important;
+        color: #000;
+        display: block;
+        margin: auto;
+        position: relative;
+        left: 0px;
+    }
+    .Cheapest .proof .once{
+        position: relative;
+        top: -100px;
+    }
+}
+@media (max-width:584px) {
+    .Cheapest{
+        padding: 100px 10px 0px 10px;
+        background-color: #FFFFFF;
+    }
+    .Cheapest .images{
+        margin-top: -60px;
+    }
+    /* .Cheapest .proof p{
+        font-size: 14px !important;
+    } */
+}
+@media (max-width:464px) {
+    .Cheapest .proof h1{
+        font-size: 25px;
+        font-weight: 900;
+    }
+    .Cheapest .proof .http p{
+        margin-top: -8px;
+    }
+}
+/********Cheapest Ends********/
+
+
+/********Second********/
+.Second{
+    padding: 100px 0px 50px 0px;
+    background-image: url(https://res.cloudinary.com/greenmouse-tech/image/upload/v1668436203/ComplyNG%20Images/Group_1000001728_sax3z4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Second .images img{
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+.Second .proof{
+    padding: 50px 0 0 0;
+}
+.Second .proof h1{
+    font-size: 35px;
+    font-weight: 900;
+}
+.Second .proof p{
+    font-weight: 500;
+}
+.Second .proof  .http{
+    padding: 10px 0 0 ;
+}
+.Second .proof .http img{
+    display:inline-block;
+    margin: auto;
+}
+.Second .proof .http p{
+    position: relative;
+    top: -105px;
+    left: 35px;
+    font-weight: 500;
+}
+.Second .proof .once{
+    position: relative;
+    top: -100px;
+}
+.Second .click{
+    margin-top: -20px !important;
+    color: #fff;
+    display: inline-block;
+    margin: auto;
+    position: relative;
+    left: 300px;
+    border: none;
+    background-color: #8CB523;
+    padding: 10px 50px;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 20px #8CB523;
+}
+.Second .here{
+    margin-top: -20px !important;
+    color: #000;
+    display: inline-block;
+    margin: auto;
+    border: 1px solid #000;
+    position: relative;
+    left: 350px;
+    background-color: #fff;
+    padding: 10px 50px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.Second .push {
+    padding: 70px 0px 0px 0px;
+}
+
+.Second .line {
+    background-color: #949494;
+    height: 1px;
+    width: 100%;
+}
+@media (max-width:1200px) {
+    .Second .proof{
+        padding: 0px 0 0 0;
+    }
+    .Second .proof h1{
+        font-size: 30px;
+        font-weight: 900;
+    }
+}
+@media (max-width:991px) {
+    .Second .images img{
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+    .Second .images{
+        margin-top: -30px;
+    }
+    .Second .proof .once{
+        position: relative;
+        top: -100px;
+    }
+    .Second .click{
+        margin-top: 40px !important;
+        color: #fff;
+        display: block;
+        margin: auto;
+        position: relative;
+        left: 0px;
+    }
+    .Second .here{
+        margin-top: 20px !important;
+        color: #000;
+        display: block;
+        margin: auto;
+        position: relative;
+        left: 0px;
+    }
+    .Second .proof .once{
+        position: relative;
+        top: -100px;
+    }
+}
+@media (max-width:584px) {
+    .Second{
+        padding: 100px 10px 0px 10px;
+        background-color: #FFFFFF;
+    }
+    .Second .images{
+        margin-top: -60px;
+    }
+}
+/********Second Ends********/
+
+/**********lOGIN*************/
+#back{
+    background-image: url(https://res.cloudinary.com/greenmouse-tech/image/upload/v1668431293/ComplyNG%20Images/tihjy_jnvfoe.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.logIn{
+    margin-top: 150px;
+}
+.logIn .fine {
+    text-align: center;
+    margin-top: 30px;
+}
+.logIn .fine a {
+   color: #9DB940 !important;
+}
+.logIn .sign .sign-div img{
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+.logIn .sign .sign-div {
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(136, 136, 136, 0.219);
+    border-radius: 10px;
+    width: 100%;
+    padding: 50px 50px;
+    margin-top: 20px;
+}
+.logIn .sign h4{
+    font-size: 30px;
+    color: #000000;
+    padding: 0px 0 10px 0px;
+    font-weight: 600;
+}
+.logIn .sign .sign-div ::placeholder{
+    font-size: 12px;
+    color: #000;
+}
+.logIn .sign .sign-div label{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.logIn .sign .sign-div input{
+    display: block;
+    width: 100%;
+    padding: 15px 5px 15px 20px;
+    border-radius: 5px;
+    border: 1px solid #D9D9D9;
+    letter-spacing: 0.8px;
+    background-color: #F1F5FD;
+    font-size: 14px;
+    transition: 0.6s;
+}
+.logIn .sign .sign-div a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+.logIn .sign .sign-div p{
+    font-size: 13px;
+    margin-top: 10px;
+}
+.logIn .sign .sign-div button{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    border: none;
+    background-color: #95B343;
+    color: #fff;
+    border-radius: 5px;
+}
+@media(max-width: 1400px){
+    .logIn .sign .sign-div button{
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+        border: none;
+        color: #fff;
+        border-radius: 10px;
+    }
+}
+@media(max-width: 520px){
+    .logIn .sign .sign-div button{
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+        border: none;
+        background-color: #95B343;
+        color: #fff;
+        border-radius: 10px;
+    }
+    .logIn .sign .sign-div a{
+        text-decoration: none;
+        color: #fff;
+        font-weight: 500;
+        font-size: 15px !important;
+    }
+   
+    .logIn .sign .sign-div {
+        background-color: #fff;
+        box-shadow: 0px 0px 20px rgba(136, 136, 136, 0.219);
+        border-radius: 10px;
+        width: 100%;
+        padding: 30px 20px;
+        margin-top: 20px; 
+    }
+    #back{
+        height: 100vh;
+    }
+    
+}
+
+/**********lOGIN ENDS*************/
+
+
+/**********Contact *************/
+#never{
+    background-image: url(https://res.cloudinary.com/greenmouse-tech/image/upload/v1668431293/ComplyNG%20Images/tihjy_jnvfoe.png);
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+.contact{
+    margin-top: 80px;
+    padding: 100px 0px;
+}
+.contact .Needs h1{
+    font-size: 35px;
+    color: #000;
+    font-weight: 600;
+}
+.contact .Needs p{
+    font-weight: 500;
+    padding: 0px 0px 30px 0px;
+}
+.contact .Needs span{
+    padding: 0 0 0 10px;
+    line-height: 2;
+}
+.contact .Needs .tele{
+    padding: 0 0 15px 0px;
+}
+.contact .Needs i{
+    font-size: 22px;
+}
+.contact iframe{
+    padding: 20px 0 0 0;
+    width: 100%;
+    height: 280px;
+}
+.contact .sign .sign-div ::placeholder{
+    font-size: 12px;
+    color: #000;
+}
+.contact .sign .sign-div label{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.contact .sign .sign-div h4{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 0px 0px 20px 0px;
+}
+.contact .sign .sign-div {
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(136, 136, 136, 0.219);
+    border-radius: 10px;
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+.contact .sign .sign-div input{
+    display: block;
+    width: 100%;
+    padding: 10px 5px 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #D9D9D9;
+    letter-spacing: 0.8px;
+    background-color: #F1F5FD;
+    font-size: 16px;
+    transition: 0.6s;
+}
+.contact .sign .sign-div textarea{
+    display: block;
+    width: 100%;
+    padding: 10px 5px 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #D9D9D9;
+    letter-spacing: 0.8px;
+    background-color: #F1F5FD;
+    font-size: 16px;
+    height: 150px;
+    transition: 0.6s;
+}
+.contact .sign .sign-div .bi{
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 15px;
+    font-size: 19px;
+    padding-right: 15px;
+    padding-top: 2px;
+    color: #000;
+}
+.contact .sign a{
+    color: #000;
+}
+.contact .sign .sign-div a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+.contact .sign .sign-div p{
+    font-size: 13px;
+    margin-top: 10px;
+}
+.contact .sign .sign-div button{
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    border: none;
+    background-color: #9DB940;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+}
+@media (max-width:991px) {
+    .contact .sign .sign-div {
+        margin-top: 40px;
+    }
+}
+@media (max-width:584px) {
+    .contact{
+        margin-top: 80px;
+        padding: 100px 10px;
+    }
+}
+/*****I
+/**********Contact ENDS*************/
+
+/* Register Type */
+.body-register{
+    background-color: #eef6ff;
+    height: 100vh;
+}
+.register {
+    padding: 150px 10px;
+}
+.register h1{
+    color: #000;
+    font-weight: 700;
+    font-size: 45px;
+    padding-top: 10px;
+}
+@media (max-width:416px) {
+    .register .box h4{
+        font-weight: 600;
+        font-size: 20px;
+        color: #000;
+        position: relative;
+        left: 60px !important;
+        top: -35px !important;
+    }
+    .register .box img{
+        width: 50px !important;
+    }
+}
+.register p{
+    font-size: 20px;
+    color: #000;
+}
+.register .col-lg-4 a{
+    text-decoration: none;
+}
+.register .box {
+    padding: 20px 20px 0px 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #fff;
+    border: 2px solid #9DB940;
+    margin-bottom: 10px;
+}
+.register .box img{
+    width: 70px;
+}
+.register .box h4{
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+    position: relative;
+    left: 100px;
+    top: -40px;
+}
+.register .already{
+    font-size: 17px;
+    padding-top: 30px;
+}
+.register .btn-login{
+    background-color: #9DB940;
+    color: #fff;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.register .btn-login:hover{
+    background-color: #000;
+}
+@media (max-width: 991px){
+    .register {
+        height: auto !important;
+    }
+}
+@media (max-width: 370px){
+    .register .box h4 {
+        font-size: 22px;
+    }
+}
+/**********SIGN IN ************/
+#lent{
+    background-image: url(https://res.cloudinary.com/greenmouse-tech/image/upload/v1669034311/ComplyNG%20Images/Frame_xe17bk.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.sign-in{
+    padding: 50px 0 0 0;
+}
+.sign-in .text h1{
+    text-align: center;
+    color: #FFFFFF;
+    padding: 250px 0px 0px 0px;
+    font-size: 70px ;
+    font-weight: 900;
+}
+.sign-in .text p{
+    text-align: left;
+    color: #FFFFFF;
+    padding: 0px 0px 0px 0px;
+}
+.sign-in h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    color: #1D1D5F;
+    padding:20px 20px 30px 10px ;
+}
+.sign-in h4{
+    font-size: 25px;
+    font-weight: 500;
+    color: #000;
+    padding:50px 20px 0px 0px ;
+}
+.sign-in .sign img{
+    width: 200px;
+    display: inline-block;
+    margin: auto;
+}
+.sign-in .sign .sign-div {
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(136, 136, 136, 0.219);
+    border-radius: 10px;
+    width: 100%;
+    padding: 0px 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.sign-in .sign .sign-div h4{
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+.sign-in .sign .sign-div p{
+    font-size: 14px;
+    color: #95B343;
+}
+.sign-in .sign .sign-div ::placeholder{
+    font-size: 12px;
+    color: #000;
+}
+.sign-in .sign .sign-div label{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.sign-in .sign .sign-div input{
+    display: block;
+    width: 100%;
+    padding: 10px 5px 10px 40px;
+    border-radius: 5px;
+    border: 1px solid #D9D9D9;
+    letter-spacing: 0.8px;
+    background-color: #F1F5FD;
+    font-size: 16px;
+    transition: 0.6s;
+}
+.sign-in .sign .sign-div .bi{
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 15px;
+    font-size: 19px;
+    padding-right: 15px;
+    padding-top: 2px;
+    color: #000;
+}
+.sign-in .sign a{
+    color: #000;
+}
+.sign-in .sign .sign-div a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+.sign-in .sign .sign-div p{
+    font-size: 13px;
+    margin-top: 10px;
+}
+.sign-in .sign .sign-div button{
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    border: none;
+    background-color: #9DB940;
+    color: #fff;
+    border-radius: 5px;
+}
+@media(max-width: 1400px){
+    .sign-in .sign .sign-div button{
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+        border: none;
+        background-color: #9DB940;
+        color: #fff;
+        border-radius: 10px;
+    }
+}
+@media(max-width: 1200px){
+    .sign-in .sign .sign-div {
+        background-color: #fff;
+        box-shadow: 0px 0px 20px rgba(136, 136, 136, 0.219);
+        border-radius: 10px;
+        width: 100%;
+        padding: 0px 50px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 1000px){
+    .sign-in .text{
+        display: none;
+    }
+}
+@media(max-width: 520px){
+    .sign-in .slider{
+        display: none;
+    }
+    .sign-in h3{
+        display: none;
+    }
+    .sign-in .sign .sign-div button{
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+        border: none;
+        background-color: #95B343;
+        color: #fff;
+        border-radius: 10px;
+    }
+    .sign-in .sign .sign-div a{
+        text-decoration: none;
+        color: #000;
+        font-weight: 500;
+        font-size: 15px !important;
+    }
+    .sign-in h4{
+        font-size: 20px;
+        font-weight: 500;
+        color: #1D1D5F;
+    }
+    .sign-in .sign .line-rule{
+        width: 100px;
+        height: 2px;    
+        background-color: #000;
+        margin-left: 20px  !important;
+    }
+    .sign-in .sign .sign-div {
+        background-color: #fff;
+        box-shadow: 0px 0px 20px rgba(136, 136, 136, 0.219);
+        border-radius: 10px;
+        width: 100%;
+        padding: 30px 20px;
+        margin-top: 20px;
+       
+    }
+}
+
+/**********SIGN IN ENDS*************/
